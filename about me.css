@@ -1,0 +1,240 @@
+@import url('https://fonts.cdnfonts.com/css/forzan');
+body
+{
+    margin: 0;
+    font-family: sans-serif;
+    background: #f2f2f2;
+}
+.gallery
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+.content
+{
+    width: 70%;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    transition: .4s;
+    background: #f2f2f2;
+}
+button
+{
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    width: 100%;
+    padding:15px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    margin-top: 5px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+h1
+{
+    font-family: 'Forzan', sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+}
+.content .img
+{
+    margin: 2rem;
+    width: 20%;
+    border-radius: 25px;
+
+
+}
+.content .img1
+{
+
+    width: 100%;
+    margin: 2rem;
+    margin-bottom: 8rem;
+}
+.content .img2
+{
+    width: auto;
+    margin: 2rem;
+}
+.content h4
+{
+    margin-top: 2rem;
+    font-family:'Forzan',sans-serif;
+
+}
+.content .btn
+{
+    color: #000;
+}
+h3
+{
+    font-family: 'Forzan', sans-serif;
+    font-weight: 200;
+}
+
+
+
+
+
+
+.border
+{   
+    width: auto;
+}
+
+
+
+
+
+
+
+.top-border
+{
+    background: rgb(44, 41, 41);
+}
+.btn
+{
+    background: transparent;
+    width: auto;
+    font-family: 'Forzan', sans-serif;          
+    border: none;                             
+}
+.top-border .btn1
+{
+    background: transparent;
+    width: auto;
+    font-family: 'Forzan', sans-serif;          
+    border: none;                             
+}
+.btn:hover, .btn1:hover
+{
+    color: #2183a2;
+}
+
+.top-border .btn1:hover .drop-down
+{
+    display: block;
+}
+/* .logo
+{
+    margin-bottom: 3rem;
+    margin: 0;
+    background: #2183a2;
+    width: auto;
+    height: auto;
+} */
+
+
+
+
+
+
+
+.middle-border
+{
+    border: solid;
+    border-color: #2183a2;
+    border-radius: 20px;
+    margin: 1rem;
+    background: rgb(44, 41, 41);
+}
+.middle-border .btn
+{
+    background: transparent;
+    width: auto;
+    font-family: 'Forzan', sans-serif;          
+    border: none;
+    font-size: small;                            
+}
+.container h2
+{
+    font-family: 'Forzan', sans-serif;
+    color: #fff;
+    font-weight: 100;
+    width: auto;
+    margin-top: 1rem;
+    padding: 15px;
+}
+.btn:hover, .btn1:hover
+{
+    color: #2183a2;
+}
+
+
+
+
+
+
+
+.bottom-border
+{
+    position: bottom;
+    background: rgb(44, 41, 41);
+    display: flex;
+    height: 400px;
+}
+.bottom-border .content1
+{
+    margin: 1rem;
+}
+.bottom-border button
+{
+    font-size: small;
+}
+.bottom-border button:hover
+{
+    opacity: 1;
+    color: #2183a2;
+}
+.bottom-border h2
+{
+    font-family: 'Forzan', sans-serif;
+    color: #fff;
+    font-weight: 100;
+    margin: 1rem;
+    margin-top: 2rem;
+}
+.bottom-border h4
+{
+    font-size: small;
+    font-family: 'Forzan', sans-serif;
+    color: #fff;
+    font-weight: 100;
+    margin: 1rem;
+    margin-top: 2rem;
+}
+.line
+{
+    margin: 2rem;
+    height: auto;
+    width: 1px;
+    background: gray;
+    justify-content: center;
+}
+.btnn
+{
+    background: transparent;
+    color: #fff;
+    font-family: 'Forzan', sans-serif;
+    display: flex;
+    align-items: left;
+}
+.content4 .img
+{
+    display: flex;
+    width: auto;
+    margin: 5rem;
+    margin-left: 10rem;
+}
